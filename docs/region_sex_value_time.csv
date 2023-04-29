@@ -1,0 +1,261 @@
+﻿sex,obs_value,year,country_region,alpha_2_code,time_period
+Female,0.60000002,2015,Afghanistan,AF,2015
+Male,1.8,2015,Afghanistan,AF,2015
+Female,2.4000001,2018,Albania,AL,2018
+Male,1.7,2009,Albania,AL,2009
+Male,1.4,2018,Albania,AL,2018
+Female,36.700001,2016,Angola,AO,2016
+Male,15.7,2016,Angola,AO,2016
+Female,7.5999999,2010,Armenia,AM,2010
+Female,7,2016,Armenia,AM,2016
+Male,0.69999999,2010,Armenia,AM,2010
+Male,0.69999999,2016,Armenia,AM,2016
+Female,13.2,2006,Benin,BJ,2006
+Female,26.4,2012,Benin,BJ,2012
+Female,22.200001,2018,Benin,BJ,2018
+Male,7.6999998,2006,Benin,BJ,2006
+Male,9.6000004,2012,Benin,BJ,2012
+Male,11.2,2018,Benin,BJ,2018
+Male,4.0999999,2003,"Bolivia, Plurinational State of",BO,2003
+Male,4.0999999,2003,Bolivia,BO,2003
+Male,4.5999999,2008,"Bolivia, Plurinational State of",BO,2008
+Male,4.5999999,2008,Bolivia,BO,2008
+Female,25.799999,2010,Burkina Faso,BF,2010
+Male,4.5,2003,Burkina Faso,BF,2003
+Male,14.1,2010,Burkina Faso,BF,2010
+Female,30.9,2010,Burundi,BI,2010
+Female,43.200001,2017,Burundi,BI,2017
+Male,22,2010,Burundi,BI,2010
+Male,26.299999,2017,Burundi,BI,2017
+Female,8.8999996,2005,Cambodia,KH,2005
+Female,18.299999,2010,Cambodia,KH,2010
+Female,32.400002,2014,Cambodia,KH,2014
+Male,8.3999996,2005,Cambodia,KH,2005
+Male,12.3,2010,Cambodia,KH,2010
+Male,18.1,2014,Cambodia,KH,2014
+Female,15,2004,Cameroon,CM,2004
+Female,42.700001,2011,Cameroon,CM,2011
+Female,55.299999,2018,Cameroon,CM,2018
+Male,6.6999998,2004,Cameroon,CM,2004
+Male,23.799999,2011,Cameroon,CM,2011
+Male,37.400002,2018,Cameroon,CM,2018
+Female,0.80000001,2004,Chad,TD,2004
+Female,12,2015,Chad,TD,2015
+Male,2.5999999,2004,Chad,TD,2004
+Male,8.3999996,2015,Chad,TD,2015
+Female,13.4,2005,Colombia,CO,2005
+Female,32.900002,2010,Colombia,CO,2010
+Female,34.599998,2015,Colombia,CO,2015
+Male,15.1,2015,Colombia,CO,2015
+Female,8.1999998,2012,Comoros,KM,2012
+Male,8.3999996,2012,Comoros,KM,2012
+Female,5.8000002,2005,Congo,CG,2005
+Female,17.6,2009,Congo,CG,2009
+Female,27.799999,2012,Congo,CG,2012
+Male,4.0999999,2005,Congo,CG,2005
+Male,13.8,2012,Congo,CG,2012
+Female,7.4000001,2005,C√¥te d'Ivoire,CI,2005
+Female,7.4000001,2005,Ivory Coast,CI,2005
+Female,29.6,2012,C√¥te d'Ivoire,CI,2012
+Female,29.6,2012,Ivory Coast,CI,2012
+Male,16.6,2012,C√¥te d'Ivoire,CI,2012
+Male,16.6,2012,Ivory Coast,CI,2012
+Female,6.1999998,2007,"Congo, the Democratic Republic of the",CD,2007
+Female,14.1,2014,"Congo, the Democratic Republic of the",CD,2014
+Male,5.4000001,2007,"Congo, the Democratic Republic of the",CD,2007
+Male,6.8000002,2014,"Congo, the Democratic Republic of the",CD,2014
+Female,39.599998,2007,Dominican Republic,DO,2007
+Female,39.299999,2013,Dominican Republic,DO,2013
+Male,17.299999,2007,Dominican Republic,DO,2007
+Male,19.799999,2013,Dominican Republic,DO,2013
+Female,27.700001,2007,Swaziland,SZ,2007
+Male,7.0999999,2007,Swaziland,SZ,2007
+Female,2.3,2005,Ethiopia,ET,2005
+Female,37.299999,2011,Ethiopia,ET,2011
+Female,34.099998,2016,Ethiopia,ET,2016
+Male,4.6999998,2005,Ethiopia,ET,2005
+Male,32,2011,Ethiopia,ET,2011
+Male,28.9,2016,Ethiopia,ET,2016
+Female,50.900002,2012,Gabon,GA,2012
+Male,22.1,2012,Gabon,GA,2012
+Female,23.9,2013,Gambia,GM,2013
+Female,18.1,2020,Gambia,GM,2020
+Male,8.8000002,2013,Gambia,GM,2013
+Male,8,2020,Gambia,GM,2020
+Female,5,2003,Ghana,GH,2003
+Female,9.8999996,2008,Ghana,GH,2008
+Female,26.4,2014,Ghana,GH,2014
+Male,3,2003,Ghana,GH,2003
+Male,6.5999999,2008,Ghana,GH,2008
+Male,8.6000004,2014,Ghana,GH,2014
+Female,2.4000001,2005,Guinea,GN,2005
+Female,8.8000002,2012,Guinea,GN,2012
+Female,12.7,2018,Guinea,GN,2018
+Male,4.5999999,2005,Guinea,GN,2005
+Male,6.8000002,2012,Guinea,GN,2012
+Male,4.8000002,2018,Guinea,GN,2018
+Female,24.799999,2005,Guyana,GY,2005
+Female,43.700001,2009,Guyana,GY,2009
+Male,25.1,2009,Guyana,GY,2009
+Female,12,2006,Haiti,HT,2006
+Female,34.5,2012,Haiti,HT,2012
+Female,39.099998,2017,Haiti,HT,2017
+Male,5.5999999,2006,Haiti,HT,2006
+Male,16.4,2012,Haiti,HT,2012
+Male,22.6,2017,Haiti,HT,2017
+Female,35.599998,2012,Honduras,HN,2012
+Male,16.200001,2012,Honduras,HN,2012
+Female,2.5999999,2006,India,IN,2006
+Female,9.6000004,2016,India,IN,2016
+Female,10.4,2021,India,IN,2021
+Male,1.3,2006,India,IN,2006
+Male,2.3,2016,India,IN,2016
+Male,2.7,2021,India,IN,2021
+Female,11.9,2003,Kenya,KE,2003
+Female,47.700001,2009,Kenya,KE,2009
+Female,70.400002,2014,Kenya,KE,2014
+Male,9.3000002,2003,Kenya,KE,2003
+Male,31.200001,2009,Kenya,KE,2009
+Male,56.599998,2014,Kenya,KE,2014
+Female,3.5,2007,Lebanon,LB,2007
+Female,37.599998,2013,Lebanon,LB,2013
+Female,35.799999,2020,Lebanon,LB,2020
+Male,2.8,2007,Lebanon,LB,2007
+Male,11.1,2013,Lebanon,LB,2013
+Male,14.3,2020,Lebanon,LB,2020
+Female,8.6000004,2004,Lesotho,LS,2004
+Female,71,2014,Lesotho,LS,2014
+Male,3.4000001,2004,Lesotho,LS,2004
+Male,25.799999,2009,Lesotho,LS,2009
+Male,51.200001,2014,Lesotho,LS,2014
+Female,0.69999999,2004,Madagascar,MG,2004
+Female,11.2,2009,Madagascar,MG,2009
+Male,0.60000002,2004,Madagascar,MG,2004
+Male,6.6999998,2009,Madagascar,MG,2009
+Female,12.5,2004,Malawi,MW,2004
+Female,62.599998,2010,Malawi,MW,2010
+Female,68.199997,2016,Malawi,MW,2016
+Male,11.7,2004,Malawi,MW,2004
+Male,41.799999,2010,Malawi,MW,2010
+Male,50.200001,2016,Malawi,MW,2016
+Female,15.1,2017,Maldives,MV,2017
+Male,9.3000002,2017,Maldives,MV,2017
+Female,7,2006,Mali,ML,2006
+Female,12.3,2013,Mali,ML,2013
+Female,13.2,2018,Mali,ML,2018
+Male,4.5999999,2006,Mali,ML,2006
+Male,6.1999998,2013,Mali,ML,2013
+Male,6.1999998,2018,Mali,ML,2018
+Female,3.5,2021,Mauritania,MR,2021
+Male,4.5999999,2021,Mauritania,MR,2021
+Female,4.6999998,2003,Mozambique,MZ,2003
+Female,36.299999,2009,Mozambique,MZ,2009
+Female,39.200001,2011,Mozambique,MZ,2011
+Female,55.299999,2015,Mozambique,MZ,2015
+Male,3.2,2003,Mozambique,MZ,2003
+Male,17.4,2011,Mozambique,MZ,2011
+Male,27.700001,2015,Mozambique,MZ,2015
+Female,9.1999998,2016,Myanmar,MM,2016
+Female,9.1999998,2016,Burma,MM,2016
+Male,10.5,2016,Myanmar,MM,2016
+Male,10.5,2016,Burma,MM,2016
+Female,36.799999,2007,Namibia,,2007
+Female,62,2013,Namibia,,2013
+Male,17,2007,Namibia,,2007
+Male,39.900002,2013,Namibia,,2013
+Female,4.5999999,2011,Nepal,NP,2011
+Female,8.6000004,2016,Nepal,NP,2016
+Male,10.2,2011,Nepal,NP,2011
+Male,10.9,2016,Nepal,NP,2016
+Female,2.0999999,2006,Nicaragua,NI,2006
+Female,17.299999,2012,Nicaragua,NI,2012
+Male,1.8,2006,Nicaragua,NI,2006
+Male,4.5999999,2012,Nicaragua,NI,2012
+Female,4.5,2003,Nigeria,NG,2003
+Female,9.1999998,2008,Nigeria,NG,2008
+Female,15.8,2013,Nigeria,NG,2013
+Male,7.4000001,2008,Nigeria,NG,2008
+Male,9.1000004,2013,Nigeria,NG,2013
+Female,1,2018,Pakistan,PK,2018
+Male,4.5,2018,Pakistan,PK,2018
+Female,17,2018,Papua New Guinea,PG,2018
+Male,9.8000002,2018,Papua New Guinea,PG,2018
+Female,10,2006,Peru,PE,2006
+Female,17,2008,Peru,PE,2008
+Female,23.5,2009,Peru,PE,2009
+Female,53.099998,2010,Peru,PE,2010
+Female,26.1,2011,Peru,PE,2011
+Female,27.5,2012,Peru,PE,2012
+Female,1.3,2008,Philippines,PH,2008
+Female,0.80000001,2013,Philippines,PH,2013
+Female,1.9,2017,Philippines,PH,2017
+Male,0.89999998,2003,Philippines,PH,2003
+Female,23.4,2005,"Moldova, Republic of",MD,2005
+Male,20.6,2005,"Moldova, Republic of",MD,2005
+Female,17.200001,2005,Rwanda,RW,2005
+Female,59.400002,2010,Rwanda,RW,2010
+Female,68,2015,Rwanda,RW,2015
+Female,53.599998,2020,Rwanda,RW,2020
+Male,12.1,2005,Rwanda,RW,2005
+Male,49.299999,2010,Rwanda,RW,2010
+Male,55.900002,2015,Rwanda,RW,2015
+Male,52.200001,2020,Rwanda,RW,2020
+Female,49.099998,2009,Sao Tome and Principe,ST,2009
+Male,21.200001,2009,Sao Tome and Principe,ST,2009
+Female,1.5,2005,Senegal,SN,2005
+Female,23.299999,2011,Senegal,SN,2011
+Female,30.4,2014,Senegal,SN,2014
+Female,30.1,2015,Senegal,SN,2015
+Female,26,2016,Senegal,SN,2016
+Female,29,2017,Senegal,SN,2017
+Male,1.6,2005,Senegal,SN,2005
+Male,12.6,2011,Senegal,SN,2011
+Male,13.2,2014,Senegal,SN,2014
+Male,16.4,2015,Senegal,SN,2015
+Male,13.3,2016,Senegal,SN,2016
+Male,10.3,2017,Senegal,SN,2017
+Female,9,2008,Sierra Leone,SL,2008
+Female,31.299999,2013,Sierra Leone,SL,2013
+Female,32.900002,2019,Sierra Leone,SL,2019
+Male,3.2,2008,Sierra Leone,SL,2008
+Male,9.6999998,2013,Sierra Leone,SL,2013
+Male,9.5,2019,Sierra Leone,SL,2019
+Female,66.699997,2016,South Africa,ZA,2016
+Male,56.200001,2016,South Africa,ZA,2016
+Female,8.6999998,2012,Tajikistan,TJ,2012
+Female,14.4,2017,Tajikistan,TJ,2017
+Female,1.3,2016,Timor-Leste,TL,2016
+Male,1.1,2016,Timor-Leste,TL,2016
+Female,38,2014,Togo,TG,2014
+Male,18.5,2014,Togo,TG,2014
+Female,10.8,2005,Uganda,UG,2005
+Female,21.1,2006,Uganda,UG,2006
+Female,57.900002,2011,Uganda,UG,2011
+Female,61.5,2011-06,Uganda,UG,2011-06
+Female,71.199997,2016,Uganda,UG,2016
+Male,12.4,2006,Uganda,UG,2006
+Male,35.400002,2011,Uganda,UG,2011
+Male,56.900002,2016,Uganda,UG,2016
+Female,31.700001,2007,Ukraine,UA,2007
+Male,18.4,2007,Ukraine,UA,2007
+Female,12.4,2004,"Tanzania, United Republic of",TZ,2004
+Female,11.4,2005,"Tanzania, United Republic of",TZ,2005
+Female,33,2008,"Tanzania, United Republic of",TZ,2008
+Female,47.099998,2010,"Tanzania, United Republic of",TZ,2010
+Female,49.200001,2012,"Tanzania, United Republic of",TZ,2012
+Male,6.4000001,2005,"Tanzania, United Republic of",TZ,2005
+Male,27.5,2010,"Tanzania, United Republic of",TZ,2010
+Female,2.5,2005,Viet Nam,VN,2005
+Female,2.5,2005,Vietnam,VN,2005
+Female,30.299999,2007,Zambia,ZM,2007
+Female,65.199997,2014,Zambia,ZM,2014
+Female,74.300003,2018,Zambia,ZM,2018
+Male,14.1,2007,Zambia,ZM,2007
+Male,42.299999,2014,Zambia,ZM,2014
+Male,59.200001,2018,Zambia,ZM,2018
+Female,20.5,2006,Zimbabwe,ZW,2006
+Female,44.900002,2011,Zimbabwe,ZW,2011
+Female,62.700001,2015,Zimbabwe,ZW,2015
+Male,11.6,2006,Zimbabwe,ZW,2006
+Male,20.799999,2011,Zimbabwe,ZW,2011
+Male,45.299999,2015,Zimbabwe,ZW,2015

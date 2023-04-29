@@ -1,46 +1,96 @@
 ---
-title: "R Notebook"
+title: "MT500 Quarto Report by Dev Jagasia"
 output:
   html_document:
-    df_print: paged
+    css: styles.css
+    toc: true
+    toc_depth: 3
+    toc_float: false
+    code_folding: show
+    number_sections: true
+    theme: united
+    highlight: tango
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+***Code 1 generates a world map with regions shaded based on their HIV test results. To present the results, the UNICEF HIV data is combined with the world map data and plotted using ggplot2's geom_polygon function. Higher rates of HIV are represented by color schemes that are darker, whereas lower rates are represented by lighter colors***.
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+**Code 1- A World Map Chart**
 
 ```{r}
 options(repos = c(CRAN = "https://cran.rstudio.com/"))
-install.packages("ggplot2")
-install.packages("tidyverse")
-install.packages("devtools")
-install.packages("dplyr")
-install.packages("stringr")
-install.packages("maps")
-install.packages("mapdata")
-install.packages("sf")
-install.packages("units")
-install.packages("gghighlight")
-
-library(ggplot2)
+install.packages(c("ggplot2", "tidyverse", "dplyr", "stringr", "maps", "mapdata", "sf", "units", "gghighlight"))
 library(tidyverse)
-
-unicef <- read.csv("/Users/devjagasia/region_sex_value_time.csv")
-head(unicef)
-
+library(sf)
+unicef <- read_csv("region_sex_value_time.csv")
 mapdata <- map_data("world")
-
-mapdata <- left_join(mapdata, unicef, by = c("region" = "country_region"), relationship = "many-to-many")
-mapdata1 <- mapdata %>% filter(!is.na(alpha_2_code))
-
-map1 <- ggplot(mapdata1, aes(x = long, y = lat, group = group)) + 
-  geom_polygon(aes(fill = obs_value), color = "blue")
-map1
+mapdata <- left_join(mapdata, unicef, by = c("region" = "country_region"), suffix = c(".map", ".unicef"))
+mapdata <- filter(mapdata, !is.na(alpha_2_code))
+ggplot(mapdata, aes(x = long, y = lat, group = group)) + 
+  geom_polygon(aes(fill = obs_value), color = "red") + 
+  labs(fill = "Value") + 
+  theme(panel.background = element_rect(fill = "lightblue", color = "lightblue"), 
+        panel.grid.major = element_line(color = "lightblue"))
 ```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+***Code 2 generates a stacked bar graph that displays the HIV test results by sex over time. The graph depicts the percentage of people who reported having an HIV test over time. The bars are stacked by gender to illustrate the proportion of men and women who reported an HIV test over the time period.***
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+```{r}
+#stacked bar graph
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+data <- read.csv("/Users/devjagasia/region_sex_value_time.csv")
 
+# Create the stacked bar graph
+ggplot(data, aes(x = time_period, y = obs_value, fill = sex)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Observed Value in %", y = "Time Period", title = "HIV test reported over the years globally")
+
+```
+
+***Code 3 generates a scatter plot displaying the observed value of HIV test results by location and gender. The x-axis represents the alpha code region, and the y-axis represents the observed value of the HIV test results. A linear regression line and points colored by sex are included in the plot.***
+
+```{r}
+# for scatter plot
+
+library(ggplot2)
+
+# Load the data from the CSV file
+data <- read.csv("/Users/devjagasia/region_sex_value_time.csv")
+
+# Create the scatter plot
+ggplot(data, aes(x=alpha_2_code, y=obs_value, group = sex)) +
+  geom_point() +
+  
+  # Add a linear regression line
+  geom_smooth(method="lm", se=FALSE, color = "red") +
+  
+  labs(x = " Region by Alpha Code ", y = " Observed Value") +
+  scale_color_discrete(name = "Sex")
+
+```
+
+***Code 4 generates a time series visualization of HIV test results over time. The x-axis represents the year, while the y-axis represents the observed value of HIV test results. The graphic comprises a data line graph with blue colour representing HIV test results over time.***
+
+```{r}
+# for time series plot
+
+library(ggplot2)
+library(scales)
+
+# Read in the data
+data <- read.csv("/Users/devjagasia/region_sex_value_time.csv")
+data$date <- as.Date(paste(data$year, "-01-01"), format = "%Y-%m-%d")
+
+# Convert the date column to a date object
+data$date <- as.Date(data$date)
+
+
+ggplot(data, aes(x = year, y = obs_value)) +
+  geom_line(color = "blue") +
+  labs(title = "Time Series Plot", x = "Year", y = "Observed Value")
+
+
+```
+
+```{r}
+
+```
